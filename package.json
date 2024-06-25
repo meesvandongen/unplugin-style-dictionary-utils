@@ -78,11 +78,9 @@
 		"build": "tsup",
 		"dev": "tsup --watch src",
 		"build:fix": "esno scripts/postbuild.ts",
-		"play": "npm -C playground run dev",
 		"prepublishOnly": "npm run build",
 		"release": "bumpp && npm publish",
 		"start": "esno src/index.ts",
-		"test": "vitest",
 		"format": "pnpm biome format --write ."
 	},
 	"peerDependencies": {
@@ -133,8 +131,6 @@
 		"rollup": "^4.18.0",
 		"tsup": "^8.1.0",
 		"typescript": "^5.5.2",
-		"vite": "^5.3.1",
-		"vitest": "^1.6.0",
 		"webpack": "^5.92.1"
 	}
 }
