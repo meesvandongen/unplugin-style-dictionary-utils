@@ -1,5 +1,3 @@
-import type { Config } from "style-dictionary-utils";
-
-export type { Config };
+import type { Config } from "style-dictionary";
 
 export type Options = Config;
